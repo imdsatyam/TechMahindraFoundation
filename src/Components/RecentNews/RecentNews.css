@@ -1,0 +1,39 @@
+.RecentNews {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    height: 50rem;
+    margin-top: 0;
+    padding-top: 3rem;
+
+}
+
+.main__recent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic__recentnews {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recentne__text{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.recent__bnr1{
+    height: 35rem;
+}
+
+.recent__bnr2{
+    height: 35rem;
+}
+
+.recent__bnr3{
+    height: 35rem;
+}

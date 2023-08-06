@@ -1,0 +1,80 @@
+.About{
+    height: 55rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.underabout {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.aboutbanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15rem;
+}
+
+.banner__pic {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.count {
+    width: 30%;
+    padding-right: 5rem;
+    direction: rtl;
+}
+
+.aboutmah {
+    width: 70%;
+    padding-right: 5rem;
+}
+
+span {
+    font-weight: 800;
+}
+
+.bttn__1 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 3rem;
+    border: 4px solid red;
+    background-color: transparent;
+    color: var(--color-red);
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+
+.bttn__2 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+    width: 25rem;
+    height: 3rem;
+    border: 4px solid red;
+    background-color: transparent;
+    color: var(--color-red);
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+.bttn__1:hover {
+    background-color: var(--color-red);
+    color: var(--color-primary);
+}
+.bttn__2:hover {
+    background-color: var(--color-red);
+    color: var(--color-primary);
+}
+

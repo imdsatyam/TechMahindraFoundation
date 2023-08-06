@@ -1,0 +1,35 @@
+.main {
+    width: 100%;
+    display: flex;
+}
+
+.moto {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 70%;
+    margin: 4rem;
+}
+
+h1 {
+    text-align: start;
+    color: var(--color-primary);
+}
+
+.button__ctc {
+    cursor: pointer;
+    width: 30%;
+}
+
+.btn__c {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 3rem;
+    background-color: var(--color-red);
+    color: var(--color-primary);
+    font-size: 1.3rem;
+    margin-top: 6rem;
+    margin-left: 8rem;
+}

@@ -1,0 +1,32 @@
+.SucessStories {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    height: 60rem;
+    margin-top: 0;
+    padding-top: 3rem;
+}
+
+.bannersucess {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.susbutton {
+    width: 10rem;
+    height: 2rem;
+    background-color: var(--color-black);
+    color: var(--color-primary);
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.susbutton:hover{
+    background-color: var(--color-red);
+    color: var(--color-primary);
+}
+
+.hhh:hover{
+    color: var(--color-red);
+}
