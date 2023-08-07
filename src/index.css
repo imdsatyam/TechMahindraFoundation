@@ -17,6 +17,10 @@
   outline: none;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   background-color: var(--color-primary);
   color: var(--color-black);
@@ -26,11 +30,40 @@ body {
 .container {
   width: 90%;
   margin: 0 auto;
-  max-width: 1420px;
 }
 
 input::placeholder {
   padding: 1rem;
   font-size: 1rem;
   font-weight: 300;
+}
+
+@media(max-width:1420px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media(max-width:1280px) {
+  html {
+    font-size: 65%;
+  }
+}
+
+@media(max-width:1024px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media(max-width:768px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media(max-width:480px) {
+  html {
+    font-size: 35%;
+  }
 }
