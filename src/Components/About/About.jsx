@@ -16,172 +16,76 @@ function About() {
       }}
     >
       <div className="about__main">
-        <div className="aboutbanner"
-        style={{
-            background: 'var(--color-primary)',
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-          }}>
-          <div className="emploability">
-            <img
-              alt=""
-              src={picBanner}
-              className="banner__pic"
-              style={{ height: "25rem", width: "25rem" }}
-            ></img>
-          </div>
-          <div className="education">
-            <img
-              alt=""
-              src={picBanner_1}
-              className="banner__pic"
-              style={{ height: "25rem", width: "25rem" }}
-            ></img>
-          </div>
-          <div className="disability">
-            <img
-              alt=""
-              src={picBanner_2}
-              className="banner__pic"
-              style={{ height: "25rem", width: "25rem" }}
-            ></img>
+        <div className="aboutbanner">
+          <div className="img__ban_1">
+            <img alt="" src={picBanner} className="banner__pic__1"></img>
+            <img alt="" src={picBanner_1} className="banner__pic__1"></img>
+            <img alt="" src={picBanner_2} className="banner__pic__1"></img>
           </div>
         </div>
         <div className="underabout">
           <div className="count">
-            <h4 style={{ fontSize: "1rem", fontWeight: 300 }}>
-              Community health and other
-            </h4>
-            <h1
-              style={{
-                color: "var(--color-black)",
-                fontSize: "2rem",
-                fontWeight: 600,
-              }}
-            >
-              20,734
-            </h1>
-            <h4 style={{ fontSize: "1rem", fontWeight: 300 }}>
-              in FY 23 and counting
-            </h4>
+            <h4>Community health and other</h4>
+            <h1>20,734</h1>
+            <h4>in FY 23 and counting</h4>
             <hr
               style={{
                 color: "#ff0000",
                 backgroundColor: "#ff0000",
-                height: 2,
-                width: "5rem",
+                height: 1.5,
+                width: "10rem",
                 borderColor: "#ff0000",
-                marginTop: "1rem",
-                marginBottom: "1rem",
+                margin: "2rem 0",
               }}
             />
-            <h4 style={{ fontSize: "1rem", fontWeight: 300 }}>Employability</h4>
-            <h1
-              style={{
-                color: "var(--color-black)",
-                fontSize: "2rem",
-                fontWeight: 600,
-              }}
-            >
-              1,56,748
-            </h1>
-            <h4 style={{ fontSize: "1rem", fontWeight: 300 }}>Youth Trained</h4>
+            <h4>Employability</h4>
+            <h1>1,56,748</h1>
+            <h4>Youth Trained</h4>
             <hr
               style={{
                 color: "#ff0000",
                 backgroundColor: "#ff0000",
-                height: 2,
-                width: "5rem",
+                height: 1.5,
+                width: "10rem",
                 borderColor: "#ff0000",
-                marginTop: "1rem",
-                marginBottom: "1rem",
+                margin: "2rem 0",
               }}
             />
-            <h4 style={{ fontSize: "1rem", fontWeight: 300 }}>Volunteering</h4>
-            <h1
-              style={{
-                color: "var(--color-black)",
-                fontSize: "2rem",
-                fontWeight: 600,
-              }}
-            >
-              57,515
-            </h1>
-            <h4 style={{ fontSize: "1rem", fontWeight: 300 }}>
-              Hours in FY 23
-            </h4>
+            <h4>Volunteering</h4>
+            <h1>57,515</h1>
+            <h4>Hours in FY 23</h4>
             <hr
               style={{
                 color: "#ff0000",
                 backgroundColor: "#ff0000",
-                height: 2,
-                width: "5rem",
+                height: 1.5,
+                width: "10rem",
                 borderColor: "#ff0000",
-                marginTop: "1rem",
-                marginBottom: "1rem",
+                margin: "2rem 0",
               }}
             />
-            <h4 style={{ fontSize: "1rem", fontWeight: 300 }}>Teachers</h4>
-            <h1
-              style={{
-                color: "var(--color-black)",
-                fontSize: "2rem",
-                fontWeight: 600,
-              }}
-            >
-              49,909
-            </h1>
-            <h4 style={{ fontSize: "1rem", fontWeight: 300 }}>Supported</h4>
-            <hr
-              style={{
-                color: "#ff0000",
-                backgroundColor: "#ff0000",
-                height: 2,
-                width: "5rem",
-                borderColor: "#ff0000",
-                marginTop: "1rem",
-                marginBottom: "1rem",
-              }}
-            />
+            <h4>Teachers</h4>
+            <h1>49,909</h1>
+            <h4>Supported</h4>
           </div>
           <div className="aboutmah">
-            <h1
-              style={{
-                color: "var(--color-black)",
-                fontSize: "2rem",
-                fontWeight: 600,
-              }}
-            >
+            <h1>
               About <span>Tech Mahindra Foundation</span>
             </h1>
             <hr
               style={{
                 color: "#ff0000",
                 backgroundColor: "#ff0000",
-                height: 2,
-                width: "5rem",
+                height: 1.5,
+                width: "10rem",
                 borderColor: "#ff0000",
-                marginTop: "1rem",
-                marginBottom: "1rem",
+                margin: "2rem 0",
               }}
             />
-            <h1
-              style={{
-                color: "var(--color-black)",
-                fontSize: "2rem",
-                fontWeight: 400,
-              }}
-            >
+            <h3>
               Impacted 3,94,727 beneficiaries directly acress all our programs*
-            </h1>
-            <p
-              style={{
-                fontSize: "1.5rem",
-                fontWeight: 300,
-                paddingTop: "1rem",
-              }}
-            >
+            </h3>
+            <p>
               Founded in the year 2006, Tech Mahindra Foundation is the
               Corporate Social Responsibility (CSR) arm of Tech Mahindra
               Limited. We work extensively on the vision of 'Empowerment through

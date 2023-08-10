@@ -1,50 +1,90 @@
 .Footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: var(--color-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-primary);
+  height: 35rem;
 }
 
 .quick {
-    padding: 5rem;
-    line-height: 2;
-    width: 20rem;
+  padding: 5rem;
+  line-height: 2;
+  width: 20rem;
+}
+
+.quick h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 2;
 }
 
 .Quick__item {
-    text-decoration: none;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 .quick__link {
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 a {
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .address {
-    padding-left: 5rem;
-    padding-right: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  width: 35%;
 }
+
+.address h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 2;
+}
+
+.address h4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.address a {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
 .newsletter {
-    padding-left: 5rem;
-    padding-right: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  width: 40%;
+}
+
+.newsletter h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 2;
 }
 
 input {
-    margin-top: 1rem;
-    width: 25rem;
-    height: 3rem;
+  margin-top: 1rem;
+  width: 40rem;
+  height: 5rem;
+}
+
+input::placeholder {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-left: 3rem;
 }
 
 .bbtn {
-    margin-top: 2rem;
-    width: 25rem;
-    height: 3rem;
-    background-color: var(--color-red);
-    color: var(--color-primary);
-    font-size: 1rem;
-    font-weight: 400;
-    text-transform: uppercase;
+  margin-top: 2rem;
+  width: 40rem;
+  height: 5rem;
+  background-color: var(--color-red);
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
 }
