@@ -1,7 +1,10 @@
-.main {
+.CTC {
   width: 100%;
+}
+
+.main {
   display: flex;
-  padding: 0 10rem;
+  margin-left: 10rem;
 }
 
 .moto {
@@ -17,12 +20,13 @@
   font-size: 5rem;
   font-weight: 800;
   margin: 10rem 0;
+  margin-right: 15rem;
 }
 
 .button__ctc {
   cursor: pointer;
   width: 30%;
-  margin: 14rem 0;
+  margin: 14rem 15rem;
 }
 
 .btn__c {

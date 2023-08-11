@@ -23,6 +23,7 @@ function OurLeader() {
           >
             <SwiperSlide>
               <div className="mahindra">
+                <div className="red__back"></div>
                 <div className="mahi__pic">
                   <img src={PicMahi} alt="" />
                 </div>
@@ -50,6 +51,7 @@ function OurLeader() {
             </SwiperSlide>
             <SwiperSlide>
               <div className="mahindra">
+                <div className="red__back"></div>
                 <div className="mahi__pic">
                   <img src={PicMahi} alt="" />
                 </div>
@@ -77,6 +79,7 @@ function OurLeader() {
             </SwiperSlide>
             <SwiperSlide>
               <div className="mahindra">
+                <div className="red__back"></div>
                 <div className="mahi__pic">
                   <img src={PicMahi} alt="" />
                 </div>
@@ -104,6 +107,7 @@ function OurLeader() {
             </SwiperSlide>
             <SwiperSlide>
               <div className="mahindra">
+                <div className="red__back"></div>
                 <div className="mahi__pic">
                   <img src={PicMahi} alt="" />
                 </div>

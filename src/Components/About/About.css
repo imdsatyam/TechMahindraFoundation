@@ -25,6 +25,7 @@
 
 .img__ban_1 img {
   width: 32%;
+  position: relative;
 }
 
 .underabout {

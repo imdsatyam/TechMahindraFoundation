@@ -40,45 +40,76 @@ input::placeholder {
 
 @media(max-width:1280px) {
   html {
-    font-size: 58%;
+    font-size: 50%;
   }
   .img__ban_1 img {
     width: 48%;
+  }
+  .nav__logo img {
+    width: 78%;
+  }
+  .div__sml__bnr img {
+    width: 78%;
   }
 }
 
 @media(max-width:1024px) {
   html {
-    font-size: 52%;
+    font-size: 40%;
   }
   .img__ban_1 img {
-    width: 48%;
+    width: 38%;
   }
-  .FocusArea img {
-    width: 80%;
+  .nav__logo img {
+    width: 68%;
+  }
+  .div__sml__bnr img {
+    width: 68%;
   }
 }
 
 @media(max-width:768px) {
   html {
-    font-size: 42%;
+    font-size: 30%;
   }
   .img__ban_1 img {
-    width: 48%;
+    width: 28%;
   }
-  .FocusArea img {
-    width: 60%;
+  .nav__logo img {
+    width: 58%;
+  }
+  .div__sml__bnr img {
+    width: 58%;
   }
 }
 
-@media(max-width:420px) {
+@media(max-width:600px) {
   html {
-    font-size: 32%;
+    font-size: 20%;
   }
   .img__ban_1 img {
+    width: 18%;
+  }
+  .nav__logo img {
     width: 48%;
   }
-  .FocusArea img {
-    width: 60%;
+  .div__sml__bnr img {
+    width: 48%;
   }
 }
+
+@media(max-width:480px) {
+  html {
+    font-size: 20%;
+  }
+  .img__ban_1 img {
+    width: 18%;
+  }
+  .nav__logo img {
+    width: 48%;
+  }
+  .div__sml__bnr img {
+    width: 38%;
+  }
+}
+

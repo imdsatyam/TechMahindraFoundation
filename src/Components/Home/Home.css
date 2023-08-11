@@ -10,6 +10,7 @@
 }
 
 .logo {
+  width: 100%;
   display: grid;
   grid-column: 2/3;
   justify-content: start;
