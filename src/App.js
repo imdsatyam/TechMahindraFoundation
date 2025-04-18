@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navigation from "./Components/Navigation";
-import Banner from "./Components/Banner";
-import Description from "./Components/Description";
-import Footer from "./Components/Footer";
-import SuccessStories from "./Components/SuccessStories";
-import DonateNow from "./Components/DonateNow";
-import OurLeader from "./Components/OurLeader";
-import RecentNews from "./Components/RecentNews";
+import HomeContent from "./Pages/HomeContent";
+import OurProgram from "./Pages/OurProgram";
+import Impact from "./Pages/Impact"; 
+import Resources from "./Pages/Resources";
+import DescriptionUs from "./Pages/DescriptionUs";
+import Contact from "./Pages/Contact";
+import Donate from "./Pages/Donate";
 
 function App() {
   return (
@@ -15,31 +15,16 @@ function App() {
       <div>
         <Navigation />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/our-program" element={<Home />} />
-          <Route path="/impact" element={<Home />} />
-          <Route path="/resources" element={<Home />} />
-          <Route path="/description-us" element={<Home />} />
-          <Route path="/contact" element={<Home />} />
-          <Route path="/donate" element={<Home />} />
-          <Route path="*" element={<Home />} />
+          <Route path="/" element={<HomeContent />} />
+          <Route path="/our-program" element={<OurProgram />} />
+          <Route path="/impact" element={<Impact />} />
+          <Route path="/resources" element={<Resources />} /> 
+          <Route path="/description-us" element={<DescriptionUs />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/donate" element={<Donate />} />
         </Routes>
       </div>
     </Router>
-  );
-}
-
-function Home() {
-  return (
-    <div className="mainDiv">
-      <Banner />
-      <Description />
-      <SuccessStories />
-      <DonateNow />
-      <OurLeader />
-      <RecentNews />
-      <Footer />
-    </div>
   );
 }
 

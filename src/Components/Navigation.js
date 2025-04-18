@@ -18,27 +18,13 @@ function Navigation() {
       </div>
       <div className="homeNav">
         <ul className={`navList ${menuOpen ? 'mobile-active' : ''}`}>
-          <li className="nav__item">
-            <Link to="/" className="navLink">Home</Link>
-          </li>
-          <li className="nav__item">
-            <Link to="/our-program" className="navLink">Our Program</Link>
-          </li>
-          <li className="nav__item">
-            <Link to="/impact" className="navLink">Impact</Link>
-          </li>
-          <li className="nav__item">
-            <Link to="/resources" className="navLink">Resources</Link>
-          </li>
-          <li className="nav__item">
-            <Link to="/description-us" className="navLink">Description Us</Link>
-          </li>
-          <li className="nav__item">
-            <Link to="/contact" className="navLink">Contact</Link>
-          </li>
-          <li className="nav__item">
-            <Link to="/donate" className="navLink">Donate</Link>
-          </li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/our-program">Our Program</Link></li>
+          <li><Link to="/impact">Impact</Link></li>
+          <li><Link to="/resources">Resources</Link></li>
+          <li><Link to="/description-us">Description Us</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/donate">Donate</Link></li>
         </ul>
         <div className="hamburger-menu" onClick={toggleMenu}>
           <div></div>
