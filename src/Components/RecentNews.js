@@ -1,30 +1,24 @@
-import "../RecentNews/RecentNews.css";
-import news_1 from "../../Assets/News_1.png";
-import news_2 from "../../Assets/News_2.png";
-import news_3 from "../../Assets/News_3.png";
+import news_1 from "../Assets/News_1.png";
+import news_2 from "../Assets/News_2.png";
+import news_3 from "../Assets/News_3.png";
+import newBg from "../Assets/NewsBg.png";
 import { BiCalendar } from "react-icons/bi";
 
 function RecentNews() {
   return (
-    <div className="RecentNews">
-      <div className="main__recent">
-        <h1>
-          Recent <span>News & Updates</span>
-          <hr
-            style={{
-              color: "#ff0000",
-              backgroundColor: "#ff0000",
-              height: 2,
-              width: "10rem",
-              borderColor: "#ff0000",
-              margin: "auto",
-              marginBottom: "1rem",
-            }}
-          />
-        </h1>
+    <div style={{
+      backgroundImage: `url(${newBg})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      color: "white",
+      opacity: ' 0.9'
+    }}>
+      <div className="descriptionNextMain d-flex justify-content-center align-items-center flex-column">
+        <h1> Recent <span>News & Updates</span> </h1>
+        <hr className="highlight-line" />
       </div>
-      <div className="pic__recentnews">
-        <div className="recent__bnr">
+      <div className="bannersuccess d-flex flex-wrap justify-content-center gap-4 mt-4">
+        <div className="div__sml__bnr h-auto ">
           <img alt="" src={news_1}></img>
           <div className="recentne__text">
             <h5>
@@ -40,7 +34,7 @@ function RecentNews() {
             </p>
           </div>
         </div>
-        <div className="recent__bnr">
+        <div className="div__sml__bnr h-auto">
           <img alt="" src={news_2}></img>
           <div className="recentne__text">
             <h5>
@@ -56,7 +50,7 @@ function RecentNews() {
             </p>
           </div>
         </div>
-        <div className="recent__bnr__3">
+        <div className="div__sml__bnr h-auto">
           <img alt="" src={news_3}></img>
           <div className="recentne__text">
             <h5>
