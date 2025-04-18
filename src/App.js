@@ -15,6 +15,13 @@ function App() {
       <div>
         <Navigation />
         <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/our-program" element={<Home />} />
+          <Route path="/impact" element={<Home />} />
+          <Route path="/resources" element={<Home />} />
+          <Route path="/description-us" element={<Home />} />
+          <Route path="/contact" element={<Home />} />
+          <Route path="/donate" element={<Home />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </div>
