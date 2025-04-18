@@ -12,9 +12,9 @@ function Navigation() {
   return (
     <nav className="mainNav">
       <div className="logo">
-        <a href="#Home" className="navLogo">
+        <Link to="/" className="navLogo">
           <img src={Logo} alt="Logo" />
-        </a>
+        </Link>
       </div>
       <div className="homeNav">
         <ul className={`navList ${menuOpen ? 'mobile-active' : ''}`}>
@@ -31,7 +31,7 @@ function Navigation() {
             <Link to="/resources" className="navLink">Resources</Link>
           </li>
           <li className="nav__item">
-            <Link to="/Description-us" className="navLink">Description Us</Link>
+            <Link to="/description-us" className="navLink">Description Us</Link>
           </li>
           <li className="nav__item">
             <Link to="/contact" className="navLink">Contact</Link>
